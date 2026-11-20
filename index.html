@@ -1,0 +1,652 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Uladzislau Krasko — Mobile games and apps</title>
+  <meta name="description" content="Game producer and game designer. Mobile games and apps since 2019. 200+ projects with developers and 100+ solo with AI.">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Uladzislau Krasko — Mobile games and apps">
+  <meta property="og:description" content="Game producer and game designer. Mobile games and apps since 2019. 200+ projects with developers and 100+ solo with AI.">
+  <meta property="og:locale" content="en_US">
+  <meta property="og:image" content="https://wildtuna93.github.io/og.png">
+  <meta property="og:url" content="https://wildtuna93.github.io/">
+  <link rel="canonical" href="https://wildtuna93.github.io/">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Uladzislau Krasko — Mobile games and apps">
+  <meta name="twitter:description" content="Game producer and game designer. Mobile games and apps since 2019. 200+ projects with developers and 100+ solo with AI.">
+  <meta name="twitter:image" content="https://wildtuna93.github.io/og.png">
+  <meta name="theme-color" content="#E7E4DC">
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,400;0,600;0,700;0,800;1,400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <script>
+    (function () {
+      var l = null;
+      try { l = localStorage.getItem("uk-lang"); } catch (e) {}
+      if (l !== "en" && l !== "ru" && l !== "pl") {
+        var n = (navigator.language || "en").toLowerCase();
+        if (n.indexOf("pl") === 0) l = "pl";
+        else if (n.indexOf("ru") === 0 || n.indexOf("be") === 0) l = "ru";
+        else l = "en";
+      }
+      document.documentElement.lang = l;
+      if (l !== "en") document.documentElement.classList.add("i18n-pending");
+      try {
+        if (history.scrollRestoration) history.scrollRestoration = "manual";
+        var navEntry = performance.getEntriesByType("navigation")[0];
+        if (navEntry && navEntry.type === "reload") {
+          if (location.hash) history.replaceState(null, "", location.pathname + location.search);
+          scrollTo(0, 0);
+        }
+      } catch (e) {}
+    })();
+  </script>
+</head>
+<body>
+  <a class="skip" href="#content" data-i18n="skip">Skip to content</a>
+
+  <div class="site" id="site">
+    <p class="spine" data-i18n="spine">Portfolio · 2026</p>
+
+    <header class="nav">
+      <a class="nav-brand" href="#top"><span class="brand-full" data-i18n="nameFull">Uladzislau Krasko</span><span class="brand-short" data-i18n="nameLast">Krasko</span></a>
+      <nav class="nav-links" aria-label="Sections">
+        <a href="#top" data-i18n="navAbout">About</a>
+        <a href="#work" data-i18n="navWork">Experience</a>
+        <a href="#projects" data-i18n="navProjects">Projects</a>
+        <a href="#practice" data-i18n="navSkills">Skills</a>
+        <a href="#contact" data-i18n="navContact">Contact</a>
+      </nav>
+      <div class="lang-switch" role="group" data-i18n-aria="langGroup" aria-label="Language">
+        <button type="button" data-lang="en" aria-pressed="false"><span class="flag" aria-hidden="true">🇬🇧</span>EN</button>
+        <button type="button" data-lang="ru" aria-pressed="false"><span class="flag" aria-hidden="true">🇷🇺</span>RU</button>
+        <button type="button" data-lang="pl" aria-pressed="false"><span class="flag" aria-hidden="true">🇵🇱</span>PL</button>
+      </div>
+    </header>
+
+    <main id="content">
+      <section class="hero" id="top">
+        <div class="hero-copy">
+          <p class="index"><span>01</span> <span data-i18n="heroKicker">Who I am</span></p>
+          <h1 class="hero-name">
+            <span data-i18n="nameFirst">Uladzislau</span>
+            <span data-i18n="nameLast">Krasko</span>
+          </h1>
+          <ul class="roles">
+            <li data-i18n="role1">Game producer</li>
+            <li data-i18n="role2">Game designer</li>
+            <li data-i18n="role3">Creator</li>
+          </ul>
+          <p class="place" data-i18n="place">I live in Warsaw and work remotely</p>
+          <div class="hero-actions">
+            <a class="btn" href="mailto:wildtuna93@gmail.com"><svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="5" width="18" height="14" rx="2" fill="none" stroke="currentColor" stroke-width="2"/><path d="M4 7l8 6 8-6" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/></svg><span data-i18n="cta">Write to me</span></a>
+            <a class="text-link" href="https://t.me/Wild_Tuna93" target="_blank" rel="noopener noreferrer"><svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M21.5 3.4 2.7 10.7c-1.3.5-1.3 1.2-.2 1.5l4.8 1.5 1.9 5.8c.2.7.1.9.8.9.5 0 .7-.2 1-.5l2.3-2.2 4.8 3.5c.9.5 1.5.2 1.7-.8l3.1-14.6c.3-1.2-.4-1.8-1.4-1.4zM8.8 13.6l9.3-5.8c.4-.3.8-.1.5.2l-7.6 6.9-.3 3.2-1.9-4.5z"/></svg>Telegram</a>
+          </div>
+        </div>
+
+        <figure class="hero-photo">
+          <img class="cutout" src="portrait-flower.png" width="583" height="819" alt="Uladzislau Krasko" data-i18n-alt="nameFull">
+        </figure>
+
+        <div class="stats">
+          <div class="stat">
+            <p class="stat-num"><span data-count="200">0</span><span class="plus">+</span></p>
+            <p class="stat-label" data-i18n="statTeam">games and apps with a team of developers</p>
+            <p class="stat-when" data-i18n="statTeamWhen">2019–2025</p>
+          </div>
+          <div class="stat">
+            <p class="stat-num"><span data-count="100">0</span><span class="plus">+</span></p>
+            <p class="stat-label" data-i18n="statSolo">games and apps, just me and AI</p>
+            <p class="stat-when" data-i18n="statSoloWhen">since 2025</p>
+          </div>
+        </div>
+      </section>
+
+      <div class="marquee" aria-hidden="true">
+        <div class="marquee-track">
+          <p data-i18n="marquee">Puzzles · Card games · Word games · Sports games · Casual games · Brain teasers · Arcade · Action · Runners · Match-3 · Quizzes · Simulators · Idle games · Utilities · Trackers · Board games · Educational games · Hyper-casual</p>
+          <p data-i18n="marquee">Puzzles · Card games · Word games · Sports games · Casual games · Brain teasers · Arcade · Action · Runners · Match-3 · Quizzes · Simulators · Idle games · Utilities · Trackers · Board games · Educational games · Hyper-casual</p>
+        </div>
+      </div>
+
+      <section class="section about" id="about">
+        <p class="index"><span>02</span> <span data-i18n="aboutLabel">About me</span></p>
+        <div class="about-grid">
+          <h2 class="display-quote" data-i18n="aboutHello">Hello</h2>
+          <div class="prose">
+            <p data-i18n="aboutP1">I make mobile games and apps. Since 2019 I take a product from the idea through to release: concept, mechanics, specification, schedule and quality.</p>
+            <p data-i18n="aboutP2">For the last year I have worked solo, AI-first. Cursor and Claude Code cover development and design, so a game reaches release without a separate team.</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="section work" id="work">
+        <p class="index"><span>03</span> <span data-i18n="workLabel">Work experience</span></p>
+        <div class="work-head">
+          <h2 class="section-title" data-i18n="workTitle">With a team and with AI</h2>
+        </div>
+
+        <div class="era-grid">
+          <article class="era era-team reveal">
+            <img class="era-art" src="assets/ill-team.png" width="853" height="539" alt="">
+            <p class="era-when" data-i18n="eraTeamWhen">November 2019 — 2025 · MakeApp</p>
+            <h3 data-i18n="eraTeamTitle">With a team</h3>
+            <p data-i18n="eraTeamP">I came up with concepts for small games and apps: puzzles, brain teasers, card and word games, sports, arcade, utilities, trackers and other genres. I wrote the specs, found contractors on Upwork, ran external and in-house developers, and kept schedule and quality. I communicated with contractors in English.</p>
+          </article>
+
+          <article class="era era-solo reveal">
+            <img class="era-art" src="assets/ill-ai.png" width="606" height="659" alt="">
+            <p class="era-when" data-i18n="eraSoloWhen">2025 — now · MakeApp</p>
+            <h3 data-i18n="eraSoloTitle">Me and AI</h3>
+            <p data-i18n="eraSoloP">The same path, from idea to release, without developers or designers. I do the build, the store text and the graphics myself, with Cursor, Claude Code and ChatGPT.</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="section projects" id="projects">
+        <div class="reel-bar">
+          <div class="reel-head">
+            <p class="index"><span>04</span> <span data-i18n="projectsLabel">Work examples with AI</span></p>
+            <p class="projects-lead" data-i18n="projectsLead">Every game here is made from start to finish by me together with AI: idea, specs, code, graphics and store assets.</p>
+          </div>
+          <div class="reel-controls reel-games">
+            <button type="button" class="reel-btn" data-reel="prev" data-i18n-aria="reelPrev" aria-label="Previous game">
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M14.5 5.5 8 12l6.5 6.5" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            </button>
+            <span class="reel-count" aria-live="polite">1 / 1</span>
+            <button type="button" class="reel-btn" data-reel="next" data-i18n-aria="reelNext" aria-label="Next game">
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M9.5 5.5 16 12l-6.5 6.5" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            </button>
+          </div>
+        </div>
+        <div class="reel-wrap">
+          <button type="button" class="reel-side reel-side-prev" data-reel="prev" data-i18n-aria="reelPrev" aria-label="Previous game"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M14.5 5.5 8 12l6.5 6.5" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/></svg></button>
+          <button type="button" class="reel-side reel-side-next" data-reel="next" data-i18n-aria="reelNext" aria-label="Next game"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M9.5 5.5 16 12l-6.5 6.5" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/></svg></button>
+                    <div class="reel">
+          <div class="reel-track">
+            <article class="reel-slide">
+              <div class="game-card">
+                <div class="game-info">
+                  <div class="game-banner">
+                    <img class="game-header" src="assets/cook/header.jpg" width="1024" height="500" alt="">
+                    <img class="game-icon" src="assets/cook/icon.jpg" width="512" height="512" alt="">
+                  </div>
+                  <h2 class="reel-title">Cook Crusade</h2>
+                  <p class="reel-slogan" data-i18n="g1slogan">Match ingredients, defeat chefs!</p>
+                  <p class="game-desc" data-i18n="g1desc">A match-3 roguelike set in a cooking show. A young cook challenges nine master chefs: climb each chef's pantry row by row, open covered dishes (a battle, a basket of rewards or a burnt-pan trap) and grow stronger before the final duel.</p>
+                </div>
+                <div class="game-gallery">
+                  <div class="reel-stage">
+                    <button type="button" class="shot-btn" data-zoom="video" data-i18n-aria="zoomOpen" aria-label="Enlarge">
+                      <span class="phone reel-phone">
+                        <span class="phone-screen phone-video">
+                          <video class="game-video" autoplay muted loop playsinline poster="assets/cook-crusade.jpg" width="480" height="1042" aria-label="Cook Crusade">
+                            <source src="assets/cook-crusade.mp4" type="video/mp4">
+                          </video>
+                        </span>
+                      </span>
+                    </button>
+                    <button type="button" class="shot-btn" data-zoom="assets/cook/screen-1.jpg" data-i18n-aria="zoomOpen" aria-label="Enlarge">
+                      <span class="shot-frame"><img class="store-shot" src="assets/cook/screen-1.jpg" width="960" height="1707" alt="Cook Crusade"></span>
+                    </button>
+                    <button type="button" class="shot-btn" data-zoom="assets/cook/screen-2.jpg" data-i18n-aria="zoomOpen" aria-label="Enlarge">
+                      <span class="shot-frame"><img class="store-shot" src="assets/cook/screen-2.jpg" width="960" height="1707" alt="Cook Crusade"></span>
+                    </button>
+                    <button type="button" class="shot-btn" data-zoom="assets/cook/screen-3.jpg" data-i18n-aria="zoomOpen" aria-label="Enlarge">
+                      <span class="shot-frame"><img class="store-shot" src="assets/cook/screen-3.jpg" width="960" height="1707" alt="Cook Crusade"></span>
+                    </button>
+                    <button type="button" class="shot-btn" data-zoom="assets/cook/screen-4.jpg" data-i18n-aria="zoomOpen" aria-label="Enlarge">
+                      <span class="shot-frame"><img class="store-shot" src="assets/cook/screen-4.jpg" width="960" height="1707" alt="Cook Crusade"></span>
+                    </button>
+                    <button type="button" class="shot-btn" data-zoom="assets/cook/screen-5.jpg" data-i18n-aria="zoomOpen" aria-label="Enlarge">
+                      <span class="shot-frame"><img class="store-shot" src="assets/cook/screen-5.jpg" width="960" height="1707" alt="Cook Crusade"></span>
+                    </button>
+                  </div>
+                  <div class="shot-bar">
+                    <div class="shot-dots" aria-hidden="true"></div>
+                    <div class="reel-controls">
+                      <button type="button" class="reel-btn" data-shots="prev" data-i18n-aria="shotPrev" aria-label="Previous screenshot" aria-disabled="true">
+                        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M14.5 5.5 8 12l6.5 6.5" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                      </button>
+                      <button type="button" class="reel-btn" data-shots="next" data-i18n-aria="shotNext" aria-label="Next screenshot">
+                        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M9.5 5.5 16 12l-6.5 6.5" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                      </button>
+                    </div>
+                  </div>
+                  <dl class="game-facts">
+                    <div><dt data-i18n="factGenre">Genre</dt><dd data-i18n="g1genre">Match-3 roguelike</dd></div>
+                    <div><dt data-i18n="factPlatform">Platform</dt><dd>Android Native</dd></div>
+                  </dl>
+                </div>
+              </div>
+            </article>
+            <article class="reel-slide" aria-hidden="true">
+              <div class="game-card">
+                <div class="game-info">
+                  <div class="game-banner">
+                    <img class="game-header" src="assets/soccer/header.jpg" width="1024" height="500" alt="">
+                    <img class="game-icon" src="assets/soccer/icon.jpg" width="512" height="512" alt="">
+                  </div>
+                  <h2 class="reel-title">Soccer Ninja</h2>
+                  <p class="reel-slogan" data-i18n="g2slogan">Roll, dodge, score!</p>
+                  <p class="game-desc" data-i18n="g2desc">A 3D obstacle course in the spirit of American Ninja Warrior, starring a football. Roll the ball past windmills, sliding walls, pits, cannons and swinging hammers while a red laser wall chases you, then cross the finish line and watch it fly into the goal.</p>
+                </div>
+                <div class="game-gallery">
+                  <div class="reel-stage">
+                    <button type="button" class="shot-btn" data-zoom="video" data-i18n-aria="zoomOpen" aria-label="Enlarge">
+                      <span class="phone reel-phone">
+                        <span class="phone-screen phone-video">
+                          <video class="game-video" autoplay muted loop playsinline poster="assets/soccer-ninja.jpg" width="480" height="1042" aria-label="Soccer Ninja">
+                            <source src="assets/soccer-ninja.mp4" type="video/mp4">
+                          </video>
+                        </span>
+                      </span>
+                    </button>
+                    <button type="button" class="shot-btn" data-zoom="assets/soccer/screen-1.jpg" data-i18n-aria="zoomOpen" aria-label="Enlarge">
+                      <span class="shot-frame"><img class="store-shot" src="assets/soccer/screen-1.jpg" width="960" height="1707" alt="Soccer Ninja"></span>
+                    </button>
+                    <button type="button" class="shot-btn" data-zoom="assets/soccer/screen-2.jpg" data-i18n-aria="zoomOpen" aria-label="Enlarge">
+                      <span class="shot-frame"><img class="store-shot" src="assets/soccer/screen-2.jpg" width="960" height="1707" alt="Soccer Ninja"></span>
+                    </button>
+                    <button type="button" class="shot-btn" data-zoom="assets/soccer/screen-3.jpg" data-i18n-aria="zoomOpen" aria-label="Enlarge">
+                      <span class="shot-frame"><img class="store-shot" src="assets/soccer/screen-3.jpg" width="960" height="1707" alt="Soccer Ninja"></span>
+                    </button>
+                    <button type="button" class="shot-btn" data-zoom="assets/soccer/screen-4.jpg" data-i18n-aria="zoomOpen" aria-label="Enlarge">
+                      <span class="shot-frame"><img class="store-shot" src="assets/soccer/screen-4.jpg" width="960" height="1707" alt="Soccer Ninja"></span>
+                    </button>
+                    <button type="button" class="shot-btn" data-zoom="assets/soccer/screen-5.jpg" data-i18n-aria="zoomOpen" aria-label="Enlarge">
+                      <span class="shot-frame"><img class="store-shot" src="assets/soccer/screen-5.jpg" width="960" height="1707" alt="Soccer Ninja"></span>
+                    </button>
+                  </div>
+                  <div class="shot-bar">
+                    <div class="shot-dots" aria-hidden="true"></div>
+                    <div class="reel-controls">
+                      <button type="button" class="reel-btn" data-shots="prev" data-i18n-aria="shotPrev" aria-label="Previous screenshot" aria-disabled="true">
+                        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M14.5 5.5 8 12l6.5 6.5" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                      </button>
+                      <button type="button" class="reel-btn" data-shots="next" data-i18n-aria="shotNext" aria-label="Next screenshot">
+                        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M9.5 5.5 16 12l-6.5 6.5" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                      </button>
+                    </div>
+                  </div>
+                  <dl class="game-facts">
+                    <div><dt data-i18n="factGenre">Genre</dt><dd data-i18n="g2genre">3D obstacle course</dd></div>
+                    <div><dt data-i18n="factPlatform">Platform</dt><dd>Android Native · Babylon.js</dd></div>
+                  </dl>
+                </div>
+              </div>
+            </article>
+            <article class="reel-slide" aria-hidden="true">
+              <div class="game-card">
+                <div class="game-info">
+                  <div class="game-banner">
+                    <img class="game-header" src="assets/killer/header.jpg" width="1024" height="500" alt="">
+                    <img class="game-icon" src="assets/killer/icon.jpg" width="512" height="512" alt="">
+                  </div>
+                  <h2 class="reel-title">Killer Corner</h2>
+                  <p class="reel-slogan" data-i18n="g6slogan">Who was alone with the Baron?</p>
+                  <p class="game-desc" data-i18n="g6desc">A cozy murder-mystery logic puzzle. Read the suspects&#39; statements, place everyone in the house so each row and column holds exactly one person, and the culprit is the only suspect left in the room with the sleepy Baron. 50 cases, notes, hints and a comic reveal of every motive.</p>
+                </div>
+                <div class="game-gallery">
+                  <div class="reel-stage">
+                    <button type="button" class="shot-btn" data-zoom="video" data-i18n-aria="zoomOpen" aria-label="Enlarge">
+                      <span class="phone reel-phone">
+                        <span class="phone-screen phone-video">
+                          <video class="game-video" autoplay muted loop playsinline poster="assets/killer-corner.jpg" width="480" height="1042" aria-label="Killer Corner">
+                            <source src="assets/killer-corner.mp4" type="video/mp4">
+                          </video>
+                        </span>
+                      </span>
+                    </button>
+                    <button type="button" class="shot-btn" data-zoom="assets/killer/screen-1.jpg" data-i18n-aria="zoomOpen" aria-label="Enlarge">
+                      <span class="shot-frame"><img class="store-shot" src="assets/killer/screen-1.jpg" width="960" height="1707" alt="Killer Corner"></span>
+                    </button>
+                    <button type="button" class="shot-btn" data-zoom="assets/killer/screen-2.jpg" data-i18n-aria="zoomOpen" aria-label="Enlarge">
+                      <span class="shot-frame"><img class="store-shot" src="assets/killer/screen-2.jpg" width="960" height="1707" alt="Killer Corner"></span>
+                    </button>
+                    <button type="button" class="shot-btn" data-zoom="assets/killer/screen-3.jpg" data-i18n-aria="zoomOpen" aria-label="Enlarge">
+                      <span class="shot-frame"><img class="store-shot" src="assets/killer/screen-3.jpg" width="960" height="1707" alt="Killer Corner"></span>
+                    </button>
+                    <button type="button" class="shot-btn" data-zoom="assets/killer/screen-4.jpg" data-i18n-aria="zoomOpen" aria-label="Enlarge">
+                      <span class="shot-frame"><img class="store-shot" src="assets/killer/screen-4.jpg" width="960" height="1707" alt="Killer Corner"></span>
+                    </button>
+                    <button type="button" class="shot-btn" data-zoom="assets/killer/screen-5.jpg" data-i18n-aria="zoomOpen" aria-label="Enlarge">
+                      <span class="shot-frame"><img class="store-shot" src="assets/killer/screen-5.jpg" width="960" height="1707" alt="Killer Corner"></span>
+                    </button>
+                    <button type="button" class="shot-btn" data-zoom="assets/killer/screen-6.jpg" data-i18n-aria="zoomOpen" aria-label="Enlarge">
+                      <span class="shot-frame"><img class="store-shot" src="assets/killer/screen-6.jpg" width="960" height="1707" alt="Killer Corner"></span>
+                    </button>
+                  </div>
+                  <div class="shot-bar">
+                    <div class="shot-dots" aria-hidden="true"></div>
+                    <div class="reel-controls">
+                      <button type="button" class="reel-btn" data-shots="prev" data-i18n-aria="shotPrev" aria-label="Previous screenshot" aria-disabled="true">
+                        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M14.5 5.5 8 12l6.5 6.5" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                      </button>
+                      <button type="button" class="reel-btn" data-shots="next" data-i18n-aria="shotNext" aria-label="Next screenshot">
+                        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M9.5 5.5 16 12l-6.5 6.5" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                      </button>
+                    </div>
+                  </div>
+                  <dl class="game-facts">
+                    <div><dt data-i18n="factGenre">Genre</dt><dd data-i18n="g6genre">Murder-mystery logic puzzle</dd></div>
+                    <div><dt data-i18n="factPlatform">Platform</dt><dd>Android Native · Jetpack Compose</dd></div>
+                  </dl>
+                </div>
+              </div>
+            </article>
+            <article class="reel-slide" aria-hidden="true">
+              <div class="game-card">
+                <div class="game-info">
+                  <div class="game-banner">
+                    <img class="game-header" src="assets/ballbarrage/header.jpg" width="1024" height="500" alt="">
+                    <img class="game-icon" src="assets/ballbarrage/icon.jpg" width="512" height="512" alt="">
+                  </div>
+                  <h2 class="reel-title">Ball Barrage</h2>
+                  <p class="reel-slogan" data-i18n="g4slogan">Stop every wave!</p>
+                  <p class="game-desc" data-i18n="g4desc">A comedy tower defense on sports arenas. Grumpy beach balls, crazy ping-pong balls, a disco ball and a giant wrecking ball roll toward the goal, and you stop them with sports towers: football, tennis, basketball and many more. 50 levels, tower upgrades and a training center.</p>
+                </div>
+                <div class="game-gallery">
+                  <div class="reel-stage">
+                    <button type="button" class="shot-btn" data-zoom="video" data-i18n-aria="zoomOpen" aria-label="Enlarge">
+                      <span class="phone reel-phone">
+                        <span class="phone-screen phone-video">
+                          <video class="game-video" autoplay muted loop playsinline poster="assets/ball-barrage.jpg" width="480" height="1042" aria-label="Ball Barrage">
+                            <source src="assets/ball-barrage.mp4" type="video/mp4">
+                          </video>
+                        </span>
+                      </span>
+                    </button>
+                    <button type="button" class="shot-btn" data-zoom="assets/ballbarrage/screen-1.jpg" data-i18n-aria="zoomOpen" aria-label="Enlarge">
+                      <span class="shot-frame"><img class="store-shot" src="assets/ballbarrage/screen-1.jpg" width="960" height="1707" alt="Ball Barrage"></span>
+                    </button>
+                    <button type="button" class="shot-btn" data-zoom="assets/ballbarrage/screen-2.jpg" data-i18n-aria="zoomOpen" aria-label="Enlarge">
+                      <span class="shot-frame"><img class="store-shot" src="assets/ballbarrage/screen-2.jpg" width="960" height="1707" alt="Ball Barrage"></span>
+                    </button>
+                    <button type="button" class="shot-btn" data-zoom="assets/ballbarrage/screen-3.jpg" data-i18n-aria="zoomOpen" aria-label="Enlarge">
+                      <span class="shot-frame"><img class="store-shot" src="assets/ballbarrage/screen-3.jpg" width="960" height="1707" alt="Ball Barrage"></span>
+                    </button>
+                    <button type="button" class="shot-btn" data-zoom="assets/ballbarrage/screen-4.jpg" data-i18n-aria="zoomOpen" aria-label="Enlarge">
+                      <span class="shot-frame"><img class="store-shot" src="assets/ballbarrage/screen-4.jpg" width="960" height="1707" alt="Ball Barrage"></span>
+                    </button>
+                    <button type="button" class="shot-btn" data-zoom="assets/ballbarrage/screen-5.jpg" data-i18n-aria="zoomOpen" aria-label="Enlarge">
+                      <span class="shot-frame"><img class="store-shot" src="assets/ballbarrage/screen-5.jpg" width="960" height="1707" alt="Ball Barrage"></span>
+                    </button>
+                  </div>
+                  <div class="shot-bar">
+                    <div class="shot-dots" aria-hidden="true"></div>
+                    <div class="reel-controls">
+                      <button type="button" class="reel-btn" data-shots="prev" data-i18n-aria="shotPrev" aria-label="Previous screenshot" aria-disabled="true">
+                        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M14.5 5.5 8 12l6.5 6.5" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                      </button>
+                      <button type="button" class="reel-btn" data-shots="next" data-i18n-aria="shotNext" aria-label="Next screenshot">
+                        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M9.5 5.5 16 12l-6.5 6.5" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                      </button>
+                    </div>
+                  </div>
+                  <dl class="game-facts">
+                    <div><dt data-i18n="factGenre">Genre</dt><dd data-i18n="g4genre">Sports tower defense</dd></div>
+                    <div><dt data-i18n="factPlatform">Platform</dt><dd>Android · Flutter · Three.js</dd></div>
+                  </dl>
+                </div>
+              </div>
+            </article>
+            <article class="reel-slide" aria-hidden="true">
+              <div class="game-card">
+                <div class="game-info">
+                  <div class="game-banner">
+                    <img class="game-header" src="assets/keystorm/header.jpg" width="1024" height="500" alt="">
+                    <img class="game-icon" src="assets/keystorm/icon.jpg" width="512" height="512" alt="">
+                  </div>
+                  <h2 class="reel-title">Key Storm</h2>
+                  <p class="reel-slogan" data-i18n="g7slogan">Learn to type fast while you play</p>
+                  <p class="game-desc" data-i18n="g7desc">A game and a typing trainer in one: useful and fun at the same time. Several game modes, from falling words to races and laser battles, a daily challenge, five languages and juicy neon animations. Achievements, ranks and customization keep players coming back for one more round.</p>
+                </div>
+                <div class="game-gallery">
+                  <div class="reel-stage">
+                    <button type="button" class="shot-btn" data-zoom="video" data-i18n-aria="zoomOpen" aria-label="Enlarge">
+                      <span class="phone reel-phone">
+                        <span class="phone-screen phone-video">
+                          <video class="game-video" autoplay muted loop playsinline poster="assets/key-storm.jpg" width="480" height="1042" aria-label="Key Storm">
+                            <source src="assets/key-storm.mp4" type="video/mp4">
+                          </video>
+                        </span>
+                      </span>
+                    </button>
+                    <button type="button" class="shot-btn" data-zoom="assets/keystorm/screen-1.jpg" data-i18n-aria="zoomOpen" aria-label="Enlarge">
+                      <span class="shot-frame"><img class="store-shot" src="assets/keystorm/screen-1.jpg" width="960" height="1707" alt="Key Storm"></span>
+                    </button>
+                    <button type="button" class="shot-btn" data-zoom="assets/keystorm/screen-2.jpg" data-i18n-aria="zoomOpen" aria-label="Enlarge">
+                      <span class="shot-frame"><img class="store-shot" src="assets/keystorm/screen-2.jpg" width="960" height="1707" alt="Key Storm"></span>
+                    </button>
+                    <button type="button" class="shot-btn" data-zoom="assets/keystorm/screen-3.jpg" data-i18n-aria="zoomOpen" aria-label="Enlarge">
+                      <span class="shot-frame"><img class="store-shot" src="assets/keystorm/screen-3.jpg" width="960" height="1707" alt="Key Storm"></span>
+                    </button>
+                    <button type="button" class="shot-btn" data-zoom="assets/keystorm/screen-4.jpg" data-i18n-aria="zoomOpen" aria-label="Enlarge">
+                      <span class="shot-frame"><img class="store-shot" src="assets/keystorm/screen-4.jpg" width="960" height="1707" alt="Key Storm"></span>
+                    </button>
+                    <button type="button" class="shot-btn" data-zoom="assets/keystorm/screen-5.jpg" data-i18n-aria="zoomOpen" aria-label="Enlarge">
+                      <span class="shot-frame"><img class="store-shot" src="assets/keystorm/screen-5.jpg" width="960" height="1707" alt="Key Storm"></span>
+                    </button>
+                    <button type="button" class="shot-btn" data-zoom="assets/keystorm/screen-6.jpg" data-i18n-aria="zoomOpen" aria-label="Enlarge">
+                      <span class="shot-frame"><img class="store-shot" src="assets/keystorm/screen-6.jpg" width="960" height="1707" alt="Key Storm"></span>
+                    </button>
+                    <button type="button" class="shot-btn" data-zoom="assets/keystorm/screen-7.jpg" data-i18n-aria="zoomOpen" aria-label="Enlarge">
+                      <span class="shot-frame"><img class="store-shot" src="assets/keystorm/screen-7.jpg" width="960" height="1707" alt="Key Storm"></span>
+                    </button>
+                  </div>
+                  <div class="shot-bar">
+                    <div class="shot-dots" aria-hidden="true"></div>
+                    <div class="reel-controls">
+                      <button type="button" class="reel-btn" data-shots="prev" data-i18n-aria="shotPrev" aria-label="Previous screenshot" aria-disabled="true">
+                        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M14.5 5.5 8 12l6.5 6.5" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                      </button>
+                      <button type="button" class="reel-btn" data-shots="next" data-i18n-aria="shotNext" aria-label="Next screenshot">
+                        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M9.5 5.5 16 12l-6.5 6.5" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                      </button>
+                    </div>
+                  </div>
+                  <dl class="game-facts">
+                    <div><dt data-i18n="factGenre">Genre</dt><dd data-i18n="g7genre">Typing arcade</dd></div>
+                    <div><dt data-i18n="factPlatform">Platform</dt><dd>Flutter</dd></div>
+                  </dl>
+                </div>
+              </div>
+            </article>
+            <article class="reel-slide" aria-hidden="true">
+              <div class="game-card">
+                <div class="game-info">
+                  <div class="game-banner">
+                    <img class="game-header" src="assets/breakway/header.jpg" width="1024" height="500" alt="">
+                    <img class="game-icon" src="assets/breakway/icon.jpg" width="512" height="512" alt="">
+                  </div>
+                  <h2 class="reel-title">Breakway FC</h2>
+                  <p class="reel-slogan" data-i18n="g3slogan">Keep the ball. Beat the defense.</p>
+                  <p class="game-desc" data-i18n="g3desc">An endless pixel-art football runner full of speed and skill. Jump over cones and obstacles, slide under them, fake out defenders, pick the perfect moment to attack and finish with a goal — then do it again, faster and with style.</p>
+                </div>
+                <div class="game-gallery">
+                  <div class="reel-stage">
+                    <button type="button" class="shot-btn" data-zoom="video" data-i18n-aria="zoomOpen" aria-label="Enlarge">
+                      <span class="phone reel-phone">
+                        <span class="phone-screen phone-video">
+                          <video class="game-video" autoplay muted loop playsinline poster="assets/breakway-fc.jpg" width="480" height="1042" aria-label="Breakway FC">
+                            <source src="assets/breakway-fc.mp4" type="video/mp4">
+                          </video>
+                        </span>
+                      </span>
+                    </button>
+                    <button type="button" class="shot-btn" data-zoom="assets/breakway/screen-1.jpg" data-i18n-aria="zoomOpen" aria-label="Enlarge">
+                      <span class="shot-frame"><img class="store-shot" src="assets/breakway/screen-1.jpg" width="960" height="1707" alt="Breakway FC"></span>
+                    </button>
+                    <button type="button" class="shot-btn" data-zoom="assets/breakway/screen-2.jpg" data-i18n-aria="zoomOpen" aria-label="Enlarge">
+                      <span class="shot-frame"><img class="store-shot" src="assets/breakway/screen-2.jpg" width="960" height="1707" alt="Breakway FC"></span>
+                    </button>
+                    <button type="button" class="shot-btn" data-zoom="assets/breakway/screen-3.jpg" data-i18n-aria="zoomOpen" aria-label="Enlarge">
+                      <span class="shot-frame"><img class="store-shot" src="assets/breakway/screen-3.jpg" width="960" height="1707" alt="Breakway FC"></span>
+                    </button>
+                    <button type="button" class="shot-btn" data-zoom="assets/breakway/screen-4.jpg" data-i18n-aria="zoomOpen" aria-label="Enlarge">
+                      <span class="shot-frame"><img class="store-shot" src="assets/breakway/screen-4.jpg" width="960" height="1707" alt="Breakway FC"></span>
+                    </button>
+                    <button type="button" class="shot-btn" data-zoom="assets/breakway/screen-5.jpg" data-i18n-aria="zoomOpen" aria-label="Enlarge">
+                      <span class="shot-frame"><img class="store-shot" src="assets/breakway/screen-5.jpg" width="960" height="1707" alt="Breakway FC"></span>
+                    </button>
+                  </div>
+                  <div class="shot-bar">
+                    <div class="shot-dots" aria-hidden="true"></div>
+                    <div class="reel-controls">
+                      <button type="button" class="reel-btn" data-shots="prev" data-i18n-aria="shotPrev" aria-label="Previous screenshot" aria-disabled="true">
+                        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M14.5 5.5 8 12l6.5 6.5" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                      </button>
+                      <button type="button" class="reel-btn" data-shots="next" data-i18n-aria="shotNext" aria-label="Next screenshot">
+                        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M9.5 5.5 16 12l-6.5 6.5" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                      </button>
+                    </div>
+                  </div>
+                  <dl class="game-facts">
+                    <div><dt data-i18n="factGenre">Genre</dt><dd data-i18n="g3genre">Endless football runner</dd></div>
+                    <div><dt data-i18n="factPlatform">Platform</dt><dd>Android Native · Phaser 3</dd></div>
+                  </dl>
+                </div>
+              </div>
+            </article>
+            <article class="reel-slide" aria-hidden="true">
+              <div class="game-card">
+                <div class="game-info">
+                  <div class="game-banner">
+                    <img class="game-header" src="assets/worldtap/header.jpg" width="1024" height="500" alt="">
+                    <img class="game-icon" src="assets/worldtap/icon.jpg" width="512" height="512" alt="">
+                  </div>
+                  <h2 class="reel-title">World Tap</h2>
+                  <p class="reel-slogan" data-i18n="g5slogan">Find any country on the map</p>
+                  <p class="game-desc" data-i18n="g5desc">A geography quiz with an interactive world map. The game gives you a country name or a flag, and your task is to find it on the map. Countries, flags and mixed quizzes, every region of the world, lives and time modes.</p>
+                </div>
+                <div class="game-gallery">
+                  <div class="reel-stage">
+                    <button type="button" class="shot-btn" data-zoom="video" data-i18n-aria="zoomOpen" aria-label="Enlarge">
+                      <span class="phone reel-phone">
+                        <span class="phone-screen phone-video">
+                          <video class="game-video" autoplay muted loop playsinline poster="assets/world-tap.jpg" width="480" height="1042" aria-label="World Tap">
+                            <source src="assets/world-tap.mp4" type="video/mp4">
+                          </video>
+                        </span>
+                      </span>
+                    </button>
+                    <button type="button" class="shot-btn" data-zoom="assets/worldtap/screen-1.jpg" data-i18n-aria="zoomOpen" aria-label="Enlarge">
+                      <span class="shot-frame"><img class="store-shot" src="assets/worldtap/screen-1.jpg" width="960" height="1707" alt="World Tap"></span>
+                    </button>
+                    <button type="button" class="shot-btn" data-zoom="assets/worldtap/screen-2.jpg" data-i18n-aria="zoomOpen" aria-label="Enlarge">
+                      <span class="shot-frame"><img class="store-shot" src="assets/worldtap/screen-2.jpg" width="960" height="1707" alt="World Tap"></span>
+                    </button>
+                    <button type="button" class="shot-btn" data-zoom="assets/worldtap/screen-3.jpg" data-i18n-aria="zoomOpen" aria-label="Enlarge">
+                      <span class="shot-frame"><img class="store-shot" src="assets/worldtap/screen-3.jpg" width="960" height="1707" alt="World Tap"></span>
+                    </button>
+                    <button type="button" class="shot-btn" data-zoom="assets/worldtap/screen-4.jpg" data-i18n-aria="zoomOpen" aria-label="Enlarge">
+                      <span class="shot-frame"><img class="store-shot" src="assets/worldtap/screen-4.jpg" width="960" height="1707" alt="World Tap"></span>
+                    </button>
+                    <button type="button" class="shot-btn" data-zoom="assets/worldtap/screen-5.jpg" data-i18n-aria="zoomOpen" aria-label="Enlarge">
+                      <span class="shot-frame"><img class="store-shot" src="assets/worldtap/screen-5.jpg" width="960" height="1707" alt="World Tap"></span>
+                    </button>
+                  </div>
+                  <div class="shot-bar">
+                    <div class="shot-dots" aria-hidden="true"></div>
+                    <div class="reel-controls">
+                      <button type="button" class="reel-btn" data-shots="prev" data-i18n-aria="shotPrev" aria-label="Previous screenshot" aria-disabled="true">
+                        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M14.5 5.5 8 12l6.5 6.5" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                      </button>
+                      <button type="button" class="reel-btn" data-shots="next" data-i18n-aria="shotNext" aria-label="Next screenshot">
+                        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M9.5 5.5 16 12l-6.5 6.5" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                      </button>
+                    </div>
+                  </div>
+                  <dl class="game-facts">
+                    <div><dt data-i18n="factGenre">Genre</dt><dd data-i18n="g5genre">Geography quiz</dd></div>
+                    <div><dt data-i18n="factPlatform">Platform</dt><dd>Android · Flutter</dd></div>
+                  </dl>
+                </div>
+              </div>
+            </article>
+          </div>
+        </div>
+        </div>
+        <div class="reel-controls reel-games reel-games-bottom">
+            <button type="button" class="reel-btn" data-reel="prev" data-i18n-aria="reelPrev" aria-label="Previous game">
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M14.5 5.5 8 12l6.5 6.5" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            </button>
+            <span class="reel-count" aria-live="polite">1 / 1</span>
+            <button type="button" class="reel-btn" data-reel="next" data-i18n-aria="reelNext" aria-label="Next game">
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M9.5 5.5 16 12l-6.5 6.5" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            </button>
+          </div>
+      </section>
+
+      <section class="section skills" id="practice">
+        <p class="index"><span>05</span> <span data-i18n="skillsLabel">What I can do</span></p>
+        <ol class="skill-list">
+          <li class="reveal">
+            <h3 data-i18n="skill1t">Game design</h3>
+            <p data-i18n="skill1p">Core loop, mechanics, progression and levels. Puzzles, card, word and sports games.</p>
+          </li>
+          <li class="reveal">
+            <h3 data-i18n="skill2t">Producing</h3>
+            <p data-i18n="skill2p">From concept to release. Schedule, quality, plans and reports at the level a team actually needs.</p>
+          </li>
+          <li class="reveal">
+            <h3 data-i18n="skill3t">Solo building</h3>
+            <p data-i18n="skill3p">Cursor, Claude Code and ChatGPT. A prototype becomes a finished app without hand-written code.</p>
+          </li>
+          <li class="reveal">
+            <h3 data-i18n="skill4t">People</h3>
+            <p data-i18n="skill4p">Finding and running Upwork freelancers and an in-house team. Russian, English and Polish.</p>
+          </li>
+        </ol>
+        <article class="catalog reveal">
+          <h3 data-i18n="skill5t">Idea and prompt library</h3>
+          <p data-i18n="skill5p">Over the years I took apart a great many mechanics of mobile games and apps — my own, colleagues' and ones from the market. Out of that I keep a catalog of ideas, prompts, skills and building blocks for new games.</p>
+        </article>
+        <div class="tool-band">
+          <p class="tool-label" data-i18n="toolsLabel">I can work with these</p>
+          <div class="tools-marquee">
+            <div class="tools-track">
+              <p class="tools"><span class="tools-shine" data-i18n="tools">Cursor · Claude Code · ChatGPT · Jira · Confluence · Figma · Illustrator · Google Sheets · Slack · Trello · Unity · </span></p>
+              <p class="tools" aria-hidden="true"><span class="tools-shine" data-i18n="tools">Cursor · Claude Code · ChatGPT · Jira · Confluence · Figma · Illustrator · Google Sheets · Slack · Trello · Unity · </span></p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section contact" id="contact">
+        <p class="index"><span>06</span> <span data-i18n="contactLabel">Contact</span></p>
+        <div class="contact-grid">
+          <div class="contact-copy">
+            <h2 class="display-quote" data-i18n="contactTitle">Get in touch</h2>
+            <a class="mail" href="mailto:wildtuna93@gmail.com"><svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="5" width="18" height="14" rx="2" fill="none" stroke="currentColor" stroke-width="2"/><path d="M4 7l8 6 8-6" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/></svg>wildtuna93@gmail.com</a>
+            <a class="text-link tg" href="https://t.me/Wild_Tuna93" target="_blank" rel="noopener noreferrer"><svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M21.5 3.4 2.7 10.7c-1.3.5-1.3 1.2-.2 1.5l4.8 1.5 1.9 5.8c.2.7.1.9.8.9.5 0 .7-.2 1-.5l2.3-2.2 4.8 3.5c.9.5 1.5.2 1.7-.8l3.1-14.6c.3-1.2-.4-1.8-1.4-1.4zM8.8 13.6l9.3-5.8c.4-.3.8-.1.5.2l-7.6 6.9-.3 3.2-1.9-4.5z"/></svg>Telegram · @Wild_Tuna93</a>
+          </div>
+          <figure class="contact-photo">
+            <img src="portrait-face.png" width="819" height="819" alt="">
+          </figure>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <p>© <span id="year">2026</span> <span data-i18n="nameFull">Uladzislau Krasko</span></p>
+      <p data-i18n="footer">Mobile games and apps · Warsaw</p>
+    </footer>
+  </div>
+
+  <div class="lightbox" hidden>
+    <button type="button" class="lightbox-close" data-i18n-aria="zoomClose" aria-label="Close">
+      <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 6l12 12M18 6 6 18" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"/></svg>
+    </button>
+    <div class="lightbox-stage"></div>
+  </div>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
