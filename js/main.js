@@ -35,7 +35,7 @@
       workTitle: "With a team and with AI",
       eraTeamWhen: "November 2019 — 2025 · MakeApp",
       eraTeamTitle: "With a team",
-      eraTeamP: "I came up with concepts for small games and apps: puzzles, brain teasers, card and word games, sports, arcade, utilities, trackers and other genres. I wrote the specs, found contractors on Upwork, ran external and in-house developers, and kept schedule and quality. I communicated with contractors in English.",
+      eraTeamP: "I came up with concepts for small games and apps: puzzles, brain teasers, card and word games, sports, arcade, utilities, trackers and other genres. I wrote the specs, found contractors on Upwork, managed external and in-house developers, and kept schedule and quality. I communicated with contractors in English.",
       eraSoloWhen: "2025 — now · MakeApp",
       eraSoloTitle: "Me and AI",
       eraSoloP: "Now I walk the same path from idea to release on my own. AI writes the code and draws the graphics; I set the direction, write the specs and check every build. My tools are Cursor, Claude Code and ChatGPT.",
